@@ -7,8 +7,9 @@
 #### File description:
 
 0. Write a function named index_range that takes two int arguments `page` and `page_size`
+
 1. Copy index_range from task 0 and the following class into your code:
-`
+```
 import csv
 import math
 from typing import List
@@ -35,11 +36,14 @@ class Server:
 
     def get_page(self, page: int = 1, page_size: int = 10) -> List[List]:
             pass
-`
+```
+
 2. Replicate code from the previous task
 > Implement a get_hyper method that takes the same arguments (and defaults) as get_page and returns a dictionary containing key-value pairs
-3. The goal here is that if between two queries, certain rows are removed from the dataset, the user does not miss items from dataset when changing page. Start 3-hypermedia_del_pagination.py with this code: 
-`
+
+3. The goal here is that if between two queries, certain rows are removed from the dataset, the user does not miss items from dataset when changing page. 
+> Start 3-hypermedia_del_pagination.py with this code: 
+```
 #!/usr/bin/env python3
 """
 Deletion-resilient hypermedia pagination
@@ -83,7 +87,7 @@ class Server:
 
     def get_hyper_index(self, index: int = None, page_size: int = 10) -> Dict:
             pass
-`
+```
 
 ***
 
