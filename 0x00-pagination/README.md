@@ -1,8 +1,8 @@
 ### Pagination
 
 #### Resources:
-* [REST API design: Pagination]()
-* [HATEOAS]()
+* [REST API design: Pagination](https://www.moesif.com/blog/technical/api-design/REST-API-Design-Filtering-Sorting-and-Pagination/#pagination)
+* [HATEOAS](https://en.wikipedia.org/wiki/HATEOAS)
 
 #### File description:
 
@@ -89,7 +89,13 @@ class Server:
             pass
 ```
 
+#### Environment:
+* Language: Python 3.7
+* Compiler: python3
+* OS: Ubuntu 20.04 LTS
+* Style: pycodestyle (version 2.5.*)
+
 ***
 
 #### Author
-Motteo1
+[Motteo1](https://github.com/Motteo1)
